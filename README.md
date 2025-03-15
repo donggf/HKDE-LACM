@@ -1,6 +1,7 @@
 # HKDE-LACM
 1.	Introduction
 This package implements the "HKDE-LACM: Lactic Acid Bacteria Classification Model based on High-Dimensional k-mers Frequency and DNABERT Embedding". The model analyzes the genomic sequences of lactic acid bacteria, leveraging high-dimensional k-mers frequency features and DNABERT embedding technology to achieve classification of lactic acid bacteria.
+
 2.	Data Sample
 The data can be downloaded from the following website:：http://bioinfor.imu.edu.cn/iprobiotics/public/download.html
 Please save the samples into the directory data\sample_data\data following the specified format:
@@ -24,6 +25,7 @@ python3 -m venv pytorch_env
 source pytorch_env/bin/activate
 Install required packages：
 python3 -m pip install -r requirements.txt
+
 4.	Running the Code
 Given that fine-tuning the model and extracting embedding sequences may be time-intensive for large-scale datasets, you can choose one of the following two methods to obtain predictions based on your data size and hardware performance：
 a)	Run the following Python code files sequentially in the specified order:：
@@ -55,7 +57,7 @@ Predict.py
 b)	Execute the script directly with the following command：
 bash running.sh
 Note: After starting the run, enter the k-value when prompted.
-Runtime with 57 Positive and 57 Negative Samples
+5.	Runtime with 57 Positive and 57 Negative Samples
 We provide runtime estimates based on a dataset of 57 positive and 57 negative samples.
 1.	k-mers Calculation Time
 o	As the k-value increases, the computation time for generating k-mers per sample grows progressively.
