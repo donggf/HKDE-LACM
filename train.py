@@ -641,7 +641,7 @@ def objective(trial):
             ('classifier', model)
         ])
 
-        score_list = cross_val_score(pipeline, X_train, y_train, cv=5, scoring='accuracy')
+        score_list = cross_val_score(pipeline, X_train, y_train, cv=10, scoring='accuracy')
         mean_score = score_list.mean()
 
         trial.report(mean_score, step=0)
@@ -866,7 +866,7 @@ if __name__ == "__main__":
         pipeline.fit(X_train, y_train)
 
         # Evaluation model
-        accuracy_scores = cross_val_score(pipeline, X_train, y_train, cv=5, scoring='accuracy')
+        accuracy_scores = cross_val_score(pipeline, X_train, y_train, cv=10, scoring='accuracy')
         mean_accuracy = accuracy_scores.mean()
 
         # Export and save the model
