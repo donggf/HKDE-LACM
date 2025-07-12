@@ -61,8 +61,7 @@ Categorize embedding sequences into:
   		-Samples with label = 0 and prediction probability > 0.9
 	Results are saved in the “data\sample_data\result” directory.
 
-- `Obtain_complete_embeddings.py`
-- `Obtain_incorrect_complete_embeddings.py`
+- `Obtain_complete_embeddings.py` and `Obtain_incorrect_complete_embeddings.py`
 Compile the embedding vectors of gene sequence fragments into complete positive and negative embedding vectors corresponding to the full gene sequences. Results are saved in the “data\sample_data\result” directory with filenames：merged_correct_sequence_embeddings_1024.tsv和merged_incorrect_sequence_embeddings_1024.tsv.
 
 
