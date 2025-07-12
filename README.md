@@ -9,10 +9,12 @@ The data can be downloaded from the following website:[http://bioinfor.imu.edu.c
     
 # 3.  Environment settings 
 GPU：NVIDIA RTX 4090D（24GB）× 1; CPU：AMD EPYC 9754（128 core），18 vCPU; Memory：60GB; Operating system：Ubuntu 20.04； PyTorch：2.0.0; Python：3.8; Cuda：11.8
-    
+
+### Install DNABERT-2:
+Please download the pretrained **DNABERT-2** model from the [official repository](https://github.com/zhanglabtools/DNABERT2)
 
 ### Install Jellyfish on Linux systems:
-Refer to the guide:[Jellyfish]([https://blog.csdn.net/qq524730309/article/details/124706296?ops_request_misc=%257B%2522request%255Fid%2522%253A%25226e240537abd6d8251d8a26299c19d968%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=6e240537abd6d8251d8a26299c19d968&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-124706296-null-null.142%5Ev102%5Epc_search_result_base5&utm_term=jellyfish&spm=1018.2226.3001.4187](https://github.com/gmarcais/Jellyfish)) 
+**Jellyfish** is used to count k-mer frequencies in this project. For installation and usage, please refer to [Jellyfish]([https://blog.csdn.net/qq524730309/article/details/124706296?ops_request_misc=%257B%2522request%255Fid%2522%253A%25226e240537abd6d8251d8a26299c19d968%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=6e240537abd6d8251d8a26299c19d968&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-124706296-null-null.142%5Ev102%5Epc_search_result_base5&utm_term=jellyfish&spm=1018.2226.3001.4187](https://github.com/gmarcais/Jellyfish)) 
 ### Create and activate a virtual environment:
 
 ```
@@ -78,4 +80,8 @@ Runtime varies with k-values:
 • 8-mer: 171 seconds 
 • 9-mer: 188 seconds 
 • 10-mer: 361 seconds 
+
+## Additional Resources
+Due to file size limitations, the fine-tuned DNABERT-2 models are available on Zenodo.
+Download link: [https://doi.org/10.xxxx/zenodo.xxxxxx](https://doi.org/10.xxxx/zenodo.xxxxxx)
 
