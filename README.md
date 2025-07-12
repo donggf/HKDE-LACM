@@ -56,11 +56,11 @@ Use the fine-tuned model to predict genomic sequence segments, generating predic
 - `Split_forward_and_reverse.py`
 Categorize embedding sequences into: 
 	• Positive embedding vectors 
- 		-Samples with label = 1 and prediction probability > 0.9
-  		-Samples with label = 0 and prediction probability < 0.1
+ 		Samples with label = 1 and prediction probability > 0.9
+  		Samples with label = 0 and prediction probability < 0.1
 	• Negative embedding vectors
-		-Samples with label = 1 and prediction probability < 0.1
-  		-Samples with label = 0 and prediction probability > 0.9
+		Samples with label = 1 and prediction probability < 0.1
+  		Samples with label = 0 and prediction probability > 0.9
 	Results are saved in the “data\sample_data\result” directory.
 
 - `Obtain_complete_embeddings.py` and `Obtain_incorrect_complete_embeddings.py`
