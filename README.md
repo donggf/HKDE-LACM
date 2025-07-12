@@ -3,8 +3,8 @@ This package implements the "HKDE-LACM: A Hybrid Model for Lactic Acid Bacteria 
     
 # 2.  Data Sample 
 The data can be downloaded from the following website:[http://bioinfor.imu.edu.cn/iprobiotics/public/download.html](http://bioinfor.imu.edu.cn/iprobiotics/public/download.html). Please save the samples into the directory “data\sample_data\data” following the specified format: 
-	• Positive samples should be named starting with "A" followed by a numeric identifier (e.g., "A1", "A2"). 
-	• Negative samples should be named starting with "B" followed by a numeric identifier (e.g., "B1", "B2").
+	- Positive samples should be named starting with "A" followed by a numeric identifier (e.g., "A1", "A2"). 
+	- Negative samples should be named starting with "B" followed by a numeric identifier (e.g., "B1", "B2").
  Refer to the example samples already provided in the directory for guidance.
     
 # 3.  Environment settings 
@@ -56,12 +56,12 @@ Use the fine-tuned model to predict genomic sequence segments, generating predic
 - `Split_forward_and_reverse.py`
 Categorize embedding sequences into: 
 	- **Positive embedding vectors**
- 		- Samples with label = 1 and prediction probability > 0.9'
-  		- Samples with label = 0 and prediction probability < 0.1'
+ 		- Samples with label = 1 and prediction probability > 0.9
+  		- Samples with label = 0 and prediction probability < 0.1
 	- **Negative embedding vectors**
-		- Samples with label = 1 and prediction probability < 0.1'
-  		- Samples with label = 0 and prediction probability > 0.9'
-	Results are saved in the “data\sample_data\result” directory.
+		- Samples with label = 1 and prediction probability < 0.1
+  		- Samples with label = 0 and prediction probability > 0.9
+Results are saved in the “data\sample_data\result” directory.
 
 - `Obtain_complete_embeddings.py` and `Obtain_incorrect_complete_embeddings.py`
 Compile the embedding vectors of gene sequence fragments into complete positive and negative embedding vectors corresponding to the full gene sequences. Results are saved in the “data\sample_data\result” directory with filenames：merged_correct_sequence_embeddings_1024.tsv和merged_incorrect_sequence_embeddings_1024.tsv.
