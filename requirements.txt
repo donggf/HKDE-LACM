@@ -1,5 +1,0 @@
-torch==1.13.1
-transformers==4.29.2
-datasets
-xgboost
-functools
