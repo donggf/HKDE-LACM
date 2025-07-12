@@ -83,5 +83,5 @@ Runtime varies with k-values:
 
 ## Additional Resources
 Due to file size limitations, the fine-tuned DNABERT-2 models are available on Zenodo.
-Download link: [https://doi.org/10.xxxx/zenodo.xxxxxx](https://doi.org/10.xxxx/zenodo.xxxxxx)
+Download link: [https://zenodo.org/records/15869456](https://zenodo.org/records/15869456)
 
