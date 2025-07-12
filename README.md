@@ -76,10 +76,10 @@ Approximately 6 hours are required for model fine-tuning.
 ### Embedding Sequence Extraction 
 Generating embedding sequences for all 114 samples takes around 3 hours.
 ### Prediction with Combined Features 
-Runtime varies with k-values: 
-• 8-mer: 171 seconds 
-• 9-mer: 188 seconds 
-• 10-mer: 361 seconds 
+• Runtime varies with k-values: 
+	• 8-mer: 171 seconds 
+	• 9-mer: 188 seconds 
+	• 10-mer: 361 seconds 
 
 ## Additional Resources
 Due to file size limitations, the fine-tuned DNABERT-2 models are available on Zenodo.
