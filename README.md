@@ -3,8 +3,8 @@ This package implements the "HKDE-LACM: A Hybrid Model for Lactic Acid Bacteria 
     
 # 2.  Data Sample 
 The data can be downloaded from the following website:[http://bioinfor.imu.edu.cn/iprobiotics/public/download.html](http://bioinfor.imu.edu.cn/iprobiotics/public/download.html). Please save the samples into the directory “data\sample_data\data” following the specified format: 
-	- Positive samples should be named starting with "A" followed by a numeric identifier (e.g., "A1", "A2"). 
-	- Negative samples should be named starting with "B" followed by a numeric identifier (e.g., "B1", "B2").
+	• Positive samples should be named starting with "A" followed by a numeric identifier (e.g., "A1", "A2"). 
+	• Negative samples should be named starting with "B" followed by a numeric identifier (e.g., "B1", "B2").
  Refer to the example samples already provided in the directory for guidance.
     
 # 3.  Environment settings 
